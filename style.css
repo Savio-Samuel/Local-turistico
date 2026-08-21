@@ -12,12 +12,97 @@
     --accent-purple: #591B98;
     --h1: 2.25rem;
     --h2: 2rem;
-    --h3: 1.75rem;    
-    --paragrap: 1rem;  
+    --h3: 1.75rem;
+    --paragrap: 1rem;
 }
 body {
-    padding: 5.5rem 5rem 3rem;
-    font-family: var(--font);
     color: var(--text-secondary);
+    font-family: var(--font);
     font-size: var(--paragrap);
+    padding: 5.5rem 5rem 3rem;
+}
+body img {
+    border-radius: 1.75rem;
+    width: 100%;
+}
+main {
+    box-sizing: border-box;
+    margin: 5.5rem auto 8.5625rem;
+    width: 70rem;
+}
+.headline {
+    color: var(--text-headline);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.title-page {
+    margin-bottom: 2.5rem;
+}
+.title-page h1 {
+    color: var(--text-primary);
+    font-size: var(--h1);
+    margin-top: 0.25rem;
+}
+.busan p {
+    font-style: italic;
+    margin-block: 1.5rem 2.5rem;
+    text-align: center;
+}
+.places-list {
+    margin-top: 4rem;
+}
+.title .headline {
+    margin-bottom: 0.125rem;
+}
+.title-list .title {
+    margin-bottom: 0.5rem;
+}
+.place-card {
+    margin-block: 3rem;
+}
+.place-card img {
+    height: 21.875rem;
+}
+.content-card {
+    margin-top: 1.25rem;
+}
+ul {
+    margin-top: 1rem;
+}
+ul li:first-child{
+    list-style: none;
+    margin-left: -1rem;
+}
+ul li {
+    margin-left: 1rem;
+}
+.blue,
+.purple, 
+.pink, .orange {
+    font-weight: bold;
+}
+.blue {
+    color: var(--accent-blue);
+}
+.purple {
+    color: var(--accent-purple);
+}
+.pink {
+    color: var(--accent-pink);
+}
+.orange {
+    color: var(--accent-orange);
+}
+.divisor {
+    background: var(--border);
+    height: 0.0625rem;
+    width: 100%;
+}
+.make {
+    text-align: center;
+}
+.make img {
+    height: 0.75rem;
+    margin-inline: 0.1875rem;
+    width: 0.875rem;
 }
